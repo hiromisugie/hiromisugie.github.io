@@ -1,0 +1,325 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700italic,400italic,300italic,300);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900);
+
+body {
+/* ★★★　背景白は解除background-color:#ffffff;★★★ */
+	font-family: 'Roboto Condensed', 'Roboto', Arial, 'Noto Sans Japanese',"游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	color:#000000;
+}
+.clear{	clear:both;}
+img{line-height:0; }
+
+@media screen and (min-width: 769px) {
+/* 共通用のスタイル記述 */
+.br-sp{
+	display:none;
+}
+a:hover{
+    opacity: 0.5;
+}
+/* ★★★★★★★★★★　ヘッダー　★★★★★★★★★★ */
+
+/* ★★★★★★★★★★　ページ用テンプレート　★★★★★★★★★★ */
+h2{
+    margin: 64px 0px 24px 0px;
+    font-size:48px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+.subtitle{
+    margin: 12px auto 42px auto;
+    padding:15px 0px 12px 0px;
+    font-size:14px;
+    text-align: center;
+}
+.text1{
+    margin-top: -16px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/* ★★★★★★★★★★　トップ画像　★★★★★★★★★★ */
+.main_visual {
+	display: block;
+	position: relative;
+	overflow: hidden;
+	max-height:800px; /* 縦固定のための追加分 */
+    line-height: 0;
+}
+.main_visual img{
+	width: 100%;
+    height: auto;
+    line-height: 0;
+    margin-bottom: 0%;
+}
+.main_text{
+	width: 100%;
+    position: absolute;
+    top: 50%;
+    margin-top: -0em;
+    font-size:32px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 0.05em;
+    z-index: 99;
+}
+
+
+/* ★★★★★★★★★★　ヘッダー下　★★★★★★★★★★ */
+#wrapper {
+	width:100%;
+	margin:250px auto 0px auto;
+	padding:0px 0px 0px 0px ;
+	font-family:'Roboto Condensed', 'Roboto', Arial, 'Noto Sans Japanese',"游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size:13px;
+	line-height:1.8em;
+}
+
+
+#inner{
+    width:1020px;
+    margin:0px auto 0px auto;
+    padding:50px 0px;
+}
+#inner_full{
+    width:100%;
+    margin:0px auto 0px auto;
+    padding:50px 0px;
+}
+
+/* ★★★★★★★★★★　ABOUT　★★★★★★★★★★ */
+.about_table{
+    margin:36px 210px 60px 210px;
+    width: 600px;
+    padding:0;
+    border-radius: 2px;
+    border-top: solid 1px #555;
+    border-right: solid 1px #555;
+    border-left: solid 1px #555;
+    font-size:13px;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.about_table td.title{
+    width:160px !important;
+    padding:15px 20px;
+    text-align: left;
+    vertical-align: top;
+    color: #333;
+    font-weight:bold;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+}
+.about_table td{
+    width:740px;
+    padding:15px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+.for_sp{display: none;}
+
+
+
+
+
+/* ★★★★★★★★★★　footer　★★★★★★★★★★ */
+.footer_logo{
+	margin:48px auto 12px auto;
+	text-align:center;
+	letter-spacing:0.05em;
+	font-size:14px;
+}
+.footer{
+	margin:24px auto 36px auto;
+	text-align:center;
+	letter-spacing:0.05em;
+	font-size:14px;
+    color:#4F4946;
+}
+
+}
+
+
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ここから下、スマホ用
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+/* スマホ用記述 */
+.br-pc{
+	display:none;
+}
+.br-sp{
+	display:block;
+}
+/* ★★★★★★★★★★　ヘッダー　★★★★★★★★★★ */
+
+/* ★★★★★★★★★★　ページ用テンプレート　★★★★★★★★★★ */
+h2{
+    margin: 24px 0px 6px 0px;
+    font-size:28px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #111111;
+}
+.subtitle{
+    width: 76%;
+    margin: 6px 12% 12px 12%;
+    padding:8px 0px 6px 0px;
+    font-size:12px;
+    color: #4F4946;
+    text-align: center;
+}
+.text1{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 13px;
+    line-height: 1.6em;
+    font-weight: bold;
+}
+.text2{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 11px;
+}
+.text3{
+    text-align: right;
+    margin-right:5%;
+
+}
+
+/* ★★★★★★★★★★　トップ画像　★★★★★★★★★★ */
+.main_visual {
+}
+.main_text{
+    margin-top: -46px;
+    font-size:24px;
+    line-height: 32px;
+}
+.main_visual img{
+	width: 180%;
+    margin-left:-40%;
+    height: auto;
+    line-height: 0;
+    margin-bottom: 0%;
+}
+
+/* ★★★★★★★★★★　ヘッダー下　★★★★★★★★★★ */
+#wrapper {
+	width:100%;
+	margin:230px 0% 0px 0%;
+	padding:0px 0px 0px 0px ;
+	font-family: 'Roboto Condensed', 'Roboto', Arial, 'Noto Sans Japanese',"游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, sans-serif;
+	font-size:13px;
+	line-height:1.8em;
+	letter-spacing:0.05em;
+}
+#about, #works, #contact{
+    width:100%;
+    margin:0px 0px 0px 0px;
+}
+#access, #srevice{
+    width:100%;
+    margin:0px 0px 0px 0px;
+    background-color: #FFF;
+}
+
+#inner{
+    width:90%;
+    margin:0px 5% 0px 5%;
+    padding:54px 0px;
+}
+#inner_full{
+    width:100%;
+    margin:0px auto 0px auto;
+    padding:54px 0px;
+}
+/* ★★★★★★★★★★　ABOUT　★★★★★★★★★★ */
+.about_table{
+    width: 100%;
+    margin:24px 0% 24px 0%;
+    padding:0;
+    border-radius: 2px;
+    border-top: solid 1px #555;
+    border-right: solid 1px #555;
+    border-left: solid 1px #555;
+    font-size:11px;
+    line-height: 1.8em;
+    background-color: #fff;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+.about_table td.title{
+    width:160px !important;
+    padding:10px 5px;
+    text-align: center;
+    vertical-align: top;
+    color: #4F4946;
+    font-weight:bold;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #555;
+    border-right: 1px solid #555;
+}
+.about_table td{
+    width:740px;
+    padding:10px 5px;
+    background-color: #fff;
+    border-bottom: 1px solid #555;
+}
+
+
+.sp-none{
+    display: none;
+}
+
+
+
+
+/* ★★★★★★★★★★　footer　★★★★★★★★★★ */
+.footer_logo{
+	margin:48px auto 12px auto;
+	text-align:center;
+}
+.footer_logo img{
+    width: 40%;
+    height: auto;
+    margin:0px auto 0px auto;
+	text-align:center;
+}
+.footer{
+	margin:24px auto 24px auto;
+	text-align:center;
+	letter-spacing:0.05em;
+	font-size:14px;
+    color:#4F4946;
+}
+
+}

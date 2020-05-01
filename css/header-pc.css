@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 769px) {
+/* 共通用のスタイル記述 */
+.header_pc {
+	width:100%;
+    position: fixed;
+    margin: 0px auto;
+    padding: 4px 0px 6px 0px;
+    top: -56px;
+    z-index:100000;
+    background-color: #fff;
+}
+.header_pc_inner {
+	max-width:1020px;
+    margin: 0px auto 0px auto;
+}
+
+.header_pc_logo {
+    float: left;
+    font-size: 24px;
+    margin: 8px 0px 2px 0px;
+}
+.header_pc_logo a:hover{
+    opacity: 0.5;
+}
+#header_pc_nav ul {
+    float: right;
+    font-size: 18px;
+	letter-spacing:0.05em;
+    margin: 12px 0px 6px 0px;
+}
+#header_pc_nav ul li {
+    float: left;
+}
+#header_pc_nav ul li a {
+    margin: 0px 0px 0px 48px;
+	padding: 0px 0px 4px 0px;
+	opacity: 0.5 ;
+}
+#header_pc_nav ul li a:hover{
+	padding: 0px 0px 4px 0px;
+	opacity: 1 ;
+}
+#header_pc_nav ul li a.current{
+	opacity: 1.0 !important;
+    color:#000;
+}
+#header_pc_nav ul li.yet{
+    margin: 0px 0px 0px 48px;
+	padding: 0px 0px 0px 0px;
+	opacity: 0.2 ;
+}
+ 
+
+
+}
+
+
+
+
+/* ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ここから下、スマホ用
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★ */
+
+
+
+
+
+@media screen and (max-width: 768px) {
+/* スマホ用記述 */
+
+/* 共通用のスタイル記述 */
+.header_pc {
+	width:100%;
+    position: fixed;
+    margin: 0px auto;
+    padding: 4px 0px 6px 0px;
+    top: -56px;
+    z-index:100000;
+    background-color: #fff;
+}
+.header_pc_inner {
+	max-width:1020px;
+    margin: 0px auto 0px auto;
+}
+
+.header_pc_logo {
+    float: left;
+    font-size: 24px;
+    margin: 8px 0px 2px 0px;
+}
+.header_pc_logo a:hover{
+    opacity: 0.5;
+}
+#header_pc_nav ul {
+    float: right;
+    font-size: 18px;
+	letter-spacing:0.05em;
+    margin: 12px 0px 6px 0px;
+}
+#header_pc_nav ul li {
+    float: left;
+}
+#header_pc_nav ul li a {
+    margin: 0px 0px 0px 48px;
+	padding: 0px 0px 4px 0px;
+	opacity: 0.5 ;
+}
+#header_pc_nav ul li a:hover{
+	padding: 0px 0px 4px 0px;
+	opacity: 1 ;
+}
+#header_pc_nav ul li a.current{
+	opacity: 1.0 !important;
+    color:#000;
+}
+#header_pc_nav ul li.yet{
+    margin: 0px 0px 0px 48px;
+	padding: 0px 0px 0px 0px;
+	opacity: 0.2 ;
+}
+ 
+
+.header_pc {
+    display: none;
+    position: fixed;
+    top: -56px;
+    left: 0;
+}
+
+}
